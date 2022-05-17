@@ -13,7 +13,7 @@ function makeRows(rowNum) {
         container.appendChild(row).className = "gridRow";
     };
 };
-
+//fuck
 function makeColumns(cellNum) {
     for (i = 0; i < rows.length; i++) {
         for (j = 0; j < cellNum; j++) {
