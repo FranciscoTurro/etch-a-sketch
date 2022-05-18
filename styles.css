@@ -1,3 +1,8 @@
+body {
+    min-height: 100vh;
+    background-image:url("images/6f2d34fe6c8746c56c14fbc55308ef99.jpg");
+}
+
 #main {
     display: flex;
     justify-content: center;
@@ -13,9 +18,27 @@
     width: 550px;
     height: 550px;
     border: black solid 5px;
+    background-color: white;
 }
 
 .cell {
     display:flex;
     border: 1px solid black;
+}
+
+.btn {
+    font-size: 1rem;
+    display: inline-block;
+    background-color: transparent;
+    border: hsl(317 100% 54%) 0.125em solid;
+    color: hsl(317 100% 54%);
+    padding: 10px 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
 }

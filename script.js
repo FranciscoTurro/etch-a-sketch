@@ -27,4 +27,4 @@ function changeColor(target) {
     target.style.backgroundColor = "black";
 }
 
-makeGrid(16,16)
+makeGrid(16,16);
