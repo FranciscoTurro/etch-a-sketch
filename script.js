@@ -36,6 +36,12 @@ clear.addEventListener('click',() => {
   document.location.reload();
 });
 
+const choose = document.getElementById("choose");
+choose.addEventListener("click",() => {
+  let n1 = prompt("First number");
+  let n2 = prompt("Second number");
+  makeGrid(n1, n2);
+})
 
 makeGrid(16, 16);
 
