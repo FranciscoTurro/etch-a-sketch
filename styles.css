@@ -1,7 +1,7 @@
 body {
     margin: 0;
     min-height: 100vh;
-    /* background-image:url("images/6f2d34fe6c8746c56c14fbc55308ef99.jpg"); */
+    background-image:url("images/6f2d34fe6c8746c56c14fbc55308ef99.jpg");
 }
 
 #main {
@@ -28,14 +28,16 @@ body {
 .btn {
     font-size: 1rem;
     display: inline-block;
-    background-color: transparent;
+    /* background-color: transparent; */
     border: hsl(317 100% 54%) 0.125em solid;
-    color: hsl(317 100% 54%);
+    background-color: hsl(317 100% 54%);
+    color: black;
     padding: 10px 50px;
 }
 
 .header {
     display: flex;
+    justify-content: space-around;
 }
 
 #main_gif {
@@ -60,4 +62,14 @@ body {
     justify-content: center;
     align-items: flex-start;
     gap: 100px;
+}
+
+h1 {
+    font-size: 56px;
+    color: lightcoral;
+}
+
+p {
+    font-size: 24px;
+    color: lightgreen;
 }
